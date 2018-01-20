@@ -1,0 +1,25 @@
+{
+  "name": "restfull-webservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node app.js",
+    "server:watch": "nodemon --ignore node_modules/ app.js",
+    "test:watch": "NODE_ENV=TEST mocha --watch --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc2",
+    "nodemon": "^1.14.8"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "should": "^13.2.0",
+    "sinon": "^4.1.3",
+    "supertest": "^3.0.0"
+  }
+}
